@@ -1,0 +1,13 @@
+# Deployment configuration
+
+repo-name    = "Foundation-iam-password-policy"
+part-of      = 'foundation'
+
+
+[[CloudFormation]]
+name         = "INFRA-iam-password-policy"
+template     = 'iam-password-policy.yml'
+account      = 'ALL'
+regions      = '{main-region}'
+capabilities = 'CAPABILITY_NAMED_IAM'
+
