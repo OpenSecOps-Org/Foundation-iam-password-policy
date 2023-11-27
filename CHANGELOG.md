@@ -1,5 +1,8 @@
 # Change Log
 
+## v1.0.4
+    * Fixed stack set create bug.
+
 ## v1.0.3
     * Refreshed scripts.
 
